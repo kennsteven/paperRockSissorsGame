@@ -1,0 +1,204 @@
+body{
+	/*Gris*/
+	background: rgba(226,226,226,1);
+	background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 46%, rgba(254,254,254,1) 96%, rgba(254,254,254,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(46%, rgba(226,226,226,1)), color-stop(96%, rgba(254,254,254,1)), color-stop(100%, rgba(254,254,254,1)));
+	background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 46%, rgba(254,254,254,1) 96%, rgba(254,254,254,1) 100%);
+	background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 46%, rgba(254,254,254,1) 96%, rgba(254,254,254,1) 100%);
+	background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 46%, rgba(254,254,254,1) 96%, rgba(254,254,254,1) 100%);
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 46%, rgba(254,254,254,1) 96%, rgba(254,254,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+}
+
+h1{
+	font-family: poiret-one, sans-serif;
+	/*font-size:30px;*/
+	/*color:#666*/
+}
+
+#titulo{
+	color: black;
+	font-family: poiret-one, sans-serif;
+	font-size:50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#pagina{
+	margin:auto;
+	width:70%;
+	/*background-color:#b0e0e6;*/
+	
+	
+}
+
+#cuadroNombres{
+	color: rgba(255, 255, 255, 0.9);
+	font-size:10px;
+	
+	/*Colores*/	
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+
+	/*bordes*/
+    border:none 6px #030303;
+    -moz-border-radius-topleft: 39px;
+    -moz-border-radius-topright:37px;
+    -moz-border-radius-bottomleft:19px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-top-left-radius:39px;
+    -webkit-border-top-right-radius:37px;
+    -webkit-border-bottom-left-radius:19px;
+    -webkit-border-bottom-right-radius:20px;
+    border-top-left-radius:39px;
+    border-top-right-radius:37px;
+    border-bottom-left-radius:19px;
+    border-bottom-right-radius:20px;
+
+}
+
+table{
+	border-style:inset;
+	font-size: 15px;
+}
+
+td{
+	text-align: center;
+	border-style:inset;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+p{
+	color : #ffffff;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: poiret-one, sans-serif;
+	text-align: justify;
+	font-weight:bold;
+	
+}
+
+#divBoton{
+	margin:0 auto 0 auto; width:390px;
+	text-align: center;
+	height:100px;
+}
+
+#botonPalabraEncontrada{
+	width:200px;
+	height:80px;
+	font-size: 20px;
+	
+	/*Bordes*/
+    border:none 5px #000000;
+    -moz-border-radius-topleft: 75px;
+    -moz-border-radius-topright:75px;
+    -moz-border-radius-bottomleft:75px;
+    -moz-border-radius-bottomright:75px;
+    -webkit-border-top-left-radius:75px;
+    -webkit-border-top-right-radius:75px;
+    -webkit-border-bottom-left-radius:75px;
+    -webkit-border-bottom-right-radius:75px;
+    border-top-left-radius:75px;
+    border-top-right-radius:75px;
+    border-bottom-left-radius:75px;
+    border-bottom-right-radius:75px;
+		
+	/*Colores*/
+	background: #f8ffe8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#e3f5ab), color-stop(100%,#b7df2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+
+}
+
+#tablaSopa{
+	
+	opacity: 0.7;
+	background: black;
+	font-size:10px;
+	padding: 70px;
+    transform: rotate(0deg) scale(0.998) skew(0deg) translate(-6px);
+    -webkit-transform: rotate(0deg) scale(0.998) skew(0deg) translate(-6px);
+    -moz-transform: rotate(0deg) scale(0.998) skew(0deg) translate(-6px);
+    -o-transform: rotate(0deg) scale(0.998) skew(0deg) translate(-6px);
+    -ms-transform: rotate(0deg) scale(0.998) skew(0deg) translate(-6px);
+
+	/*Transicion*/
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(0deg) scale(0.980) skew(1deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(0.980) skew(0deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(0.980) skew(0deg) translate(0px);
+	-o-transform: rotate(0deg) scale(0.980) skew(0deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(0.980) skew(0deg) translate(0px);
+}
+
+#tablaSopa:hover{
+	transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+
+}
+
+.letraNormal{
+	color : #ffffff;
+}
+
+.letraEncontrada {
+	color : white;
+	font-weight:bold;
+	/*Colores*/
+	background: rgba(0, 108, 220, 0.9);
+	-webkit-animation: cssAnimation 1.8353s 16 ease;
+	-moz-animation: cssAnimation 1.8353s 16 ease;
+	-o-animation: cssAnimation 1.8353s 16 ease;
+}
+
+.listaPalabras{
+	color : #ffffff;
+	font-family: poiret-one, sans-serif;
+	font-size: 25px;
+	
+}
+
+.listaPalabras ul li {
+	padding: 2px 7px;
+	display: inline;
+	border-bottom-width: 1px;
+}
+
+.palabraEncontrada{
+	text-decoration:line-through;
+}
+
+@-webkit-keyframes cssAnimation {
+	from { -webkit-transform: rotate(0deg) scale(0.81) skew(1deg) translate(0px); }
+	to { -webkit-transform: rotate(0deg) scale(1.037) skew(1deg) translate(0px); }
+}
+
+@-moz-keyframes cssAnimation {
+	from { -moz-transform: rotate(0deg) scale(0.81) skew(1deg) translate(0px); }
+	to { -moz-transform: rotate(0deg) scale(1.037) skew(1deg) translate(0px); }
+}
+
+@-o-keyframes cssAnimation {
+	from { -o-transform: rotate(0deg) scale(0.81) skew(1deg) translate(0px); }
+	to { -o-transform: rotate(0deg) scale(1.037) skew(1deg) translate(0px); }
+}
